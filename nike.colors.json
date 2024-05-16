@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Orange",
+    "class": "bg-orange-500",
+    "selectedClass": "rgb(249 115 22)"
+  },
+  {
+    "name": "Blue",
+    "class": "bg-blue-500",
+    "selectedClass": "rgb(59 130 246)"
+  },
+  {
+    "name": "Gray",
+    "class": "bg-gray-500",
+    "selectedClass": "rgb(107 114 128)"
+  },
+  {
+    "name": "White",
+    "class": "bg-white",
+    "selectedClass": "rgb(255 255 255)"
+  },
+  {
+    "name": "Pink",
+    "class": "bg-pink-500",
+    "selectedClass": "rgb(236 72 153)"
+  },
+  {
+    "name": "Green",
+    "class": "bg-green-500",
+    "selectedClass": "rgb(34 197 94)"
+  },
+  {
+    "name": "Black",
+    "class": "bg-black",
+    "selectedClass": "rgb(0 0 0)"
+  },
+  {
+    "name": "Red",
+    "class": "bg-red-500",
+    "selectedClass": "rgb(239 68 68)"
+  },
+  {
+    "name": "Yellow",
+    "class": "bg-yellow-500",
+    "selectedClass": "rgb(234 179 8)"
+  },
+  {
+    "name": "Brown",
+    "class": "bg-orange-900",
+    "selectedClass": "rgb(124 45 18)"
+  }
+]

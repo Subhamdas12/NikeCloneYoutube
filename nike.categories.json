@@ -1,0 +1,205 @@
+[
+  {
+    "label": "Athletic Gear",
+    "value": "Athletic Gear"
+  },
+  {
+    "label": "Dresses",
+    "value": "Dresses"
+  },
+  {
+    "label": "Nike SB",
+    "value": "Nike SB"
+  },
+  {
+    "label": "Collaborations",
+    "value": "Collaborations"
+  },
+  {
+    "label": "Hoodies",
+    "value": "Hoodies"
+  },
+  {
+    "label": "Duffel Bags",
+    "value": "Duffel Bags"
+  },
+  {
+    "label": "Nike Plus",
+    "value": "Nike Plus"
+  },
+  {
+    "label": "Tank Tops",
+    "value": "Tank Tops"
+  },
+  {
+    "label": "Footwear",
+    "value": "Footwear"
+  },
+  {
+    "label": "Jordan Brand",
+    "value": "Jordan Brand"
+  },
+  {
+    "label": "Accessories",
+    "value": "Accessories"
+  },
+  {
+    "label": "Leggings",
+    "value": "Leggings"
+  },
+  {
+    "label": "Equipment",
+    "value": "Equipment"
+  },
+  {
+    "label": "Nike Golf",
+    "value": "Nike Golf"
+  },
+  {
+    "label": "T-Shirts",
+    "value": "T-Shirts"
+  },
+  {
+    "label": "Protective Gear",
+    "value": "Protective Gear"
+  },
+  {
+    "label": "Golf Balls",
+    "value": "Golf Balls"
+  },
+  {
+    "label": "Sports Bras",
+    "value": "Sports Bras"
+  },
+  {
+    "label": "Beanies",
+    "value": "Beanies"
+  },
+  {
+    "label": "Skirts",
+    "value": "Skirts"
+  },
+  {
+    "label": "Wristbands",
+    "value": "Wristbands"
+  },
+  {
+    "label": "Socks",
+    "value": "Socks"
+  },
+  {
+    "label": "Shorts",
+    "value": "Shorts"
+  },
+  {
+    "label": "Pants",
+    "value": "Pants"
+  },
+  {
+    "label": "Polos",
+    "value": "Polos"
+  },
+  {
+    "label": "Compression Garments",
+    "value": "Compression Garments"
+  },
+  {
+    "label": "Belts",
+    "value": "Belts"
+  },
+  {
+    "label": "Golf Clubs",
+    "value": "Golf Clubs"
+  },
+  {
+    "label": "Tennis Rackets",
+    "value": "Tennis Rackets"
+  },
+  {
+    "label": "Athletic Sleeves",
+    "value": "Athletic Sleeves"
+  },
+  {
+    "label": "Tennis Apparel",
+    "value": "Tennis Apparel"
+  },
+  {
+    "label": "Gloves",
+    "value": "Gloves"
+  },
+  {
+    "label": "Basketballs",
+    "value": "Basketballs"
+  },
+  {
+    "label": "Sweaters",
+    "value": "Sweaters"
+  },
+  {
+    "label": "Tracksuits",
+    "value": "Tracksuits"
+  },
+  {
+    "label": "Headbands",
+    "value": "Headbands"
+  },
+  {
+    "label": "Sweatshirts",
+    "value": "Sweatshirts"
+  },
+  {
+    "label": "Yoga Apparel",
+    "value": "Yoga Apparel"
+  },
+  {
+    "label": "Gymnastics Apparel",
+    "value": "Gymnastics Apparel"
+  },
+  {
+    "_id": {
+      "$oid": "64ed921d09cd15b17bde0b0a"
+    },
+    "label": "Hats",
+    "value": "Hats"
+  },
+  {
+    "label": "Backpacks",
+    "value": "Backpacks"
+  },
+  {
+    "label": "Sports Bags",
+    "value": "Sports Bags"
+  },
+  {
+    "label": "Shin Guards",
+    "value": "Shin Guards"
+  },
+  {
+    "label": "Jackets",
+    "value": "Jackets"
+  },
+  {
+    "label": "Swimwear",
+    "value": "Swimwear"
+  },
+  {
+    "label": "Armbands",
+    "value": "Armbands"
+  },
+  {
+    "label": "Scarves",
+    "value": "Scarves"
+  },
+  {
+    "label": "Soccer Balls",
+    "value": "Soccer Balls"
+  },
+  {
+    "label": "Jersey",
+    "value": "Jersey"
+  },
+  {
+    "label": "SNKRS",
+    "value": "SNKRS"
+  }
+]

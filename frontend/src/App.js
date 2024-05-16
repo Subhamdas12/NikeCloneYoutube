@@ -1,13 +1,26 @@
-import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
+import React, { useEffect } from "react";
+
 import "./App.css";
 import LandingPage from "./pages/LandingPage";
+import Home from "./pages/Home";
+import { useDispatch } from "react-redux";
+import {
+  fetchCategoriesAsync,
+  fetchColorsAsync,
+  fetchSizesAsync,
+} from "./features/product/productSlice";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchColorsAsync());
+    dispatch(fetchSizesAsync());
+    dispatch(fetchCategoriesAsync());
+  }, [dispatch]);
   return (
     <div className="App">
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <Home />
     </div>
   );
 }

@@ -55,8 +55,3 @@ exports.deleteProductById = async (req, res) => {
     res.status(400).json(err);
   }
 };
-
-//C->Create the data (Done)
-// R->Read the data(Done)
-// U->Update the data(Done)
-// D->Delete the data(Done)

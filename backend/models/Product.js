@@ -26,7 +26,7 @@ const productSchema = new Schema(
     origin: { type: String, require: true },
     declaration: { type: String, require: true },
     marketedBy: { type: String, require: true },
-    image: { type: [String], require: true },
+    images: { type: [String], require: true },
     highlights: { type: [String], require: true },
     discountPrice: { type: Number },
   },
