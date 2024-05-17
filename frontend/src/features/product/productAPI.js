@@ -1,9 +1,20 @@
 // A mock function to mimic making an async request for data
-export function fetchProduct() {
+export function fetchProduct(filter, sort) {
   return new Promise(async (resolve) => {
-    const response = await fetch("products/fetchProducts");
+    let queryString = "";
+    //Query building for the filter
+    for (let key in filter) {
+      if (filter[key].length) {
+        queryString += `${key}=${filter[key]}&`;
+      }
+    }
+    //Query building for the sort
+    for (let key in sort) {
+      queryString += `${key}=${sort[key]}&`;
+    }
+
+    const response = await fetch("products/fetchProducts?" + queryString);
     const data = await response.json();
-    console.log(data);
     resolve({ data });
   });
 }

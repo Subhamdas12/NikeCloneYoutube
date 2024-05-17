@@ -16,8 +16,8 @@ const initialState = {
 
 export const fetchProductsAsync = createAsyncThunk(
   "product/fetchProduct",
-  async (amount) => {
-    const response = await fetchProduct(amount);
+  async ({ filterSet, sort }) => {
+    const response = await fetchProduct(filterSet, sort);
     return response.data;
   }
 );

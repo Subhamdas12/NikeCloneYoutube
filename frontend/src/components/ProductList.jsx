@@ -121,7 +121,6 @@ const products1 = [
 
 export default function ProductList() {
   const products = useSelector(selectProducts);
-  console.log(products);
   return (
     <div className="bg-white">
       {products ? (

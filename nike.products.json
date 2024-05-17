@@ -30,6 +30,7 @@
       "Retro Swoosh Design: The inclusion of a retro Swoosh design further reinforces the classic appeal of these sneakers. The Swoosh logo is an iconic symbol of Nike's legacy, and its presence on these shoes showcases a timeless style that can effortlessly transition from sports to fashion."
     ],
     "discountPrice": 2988,
+    "__v": 0,
     "colors": [
       {
         "name": "White",
@@ -45,7 +46,11 @@
       }
     ],
     "kids": "Boys",
-    "rating": 0
+    "rating": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00",
+    "updatedAt": {
+      "$date": "2024-04-01T10:21:44.908Z"
+    }
   },
   {
     "title": "Nike Phantom Luna",
@@ -82,6 +87,7 @@
       "Innovative NikeSkin Technology: With innovative NikeSkin technology, the Phantom Luna brings your foot closer to the ball, enhancing your touch and control. Your skills will be razor-sharp, helping you stand out on the pitch."
     ],
     "discountPrice": 10665,
+    "__v": 0,
     "kids": "Boys",
     "rating": 5,
     "colors": [
@@ -97,7 +103,11 @@
         "selectedClass": "rgb(239 68 68)",
         "id": "64efeff4bfdecef534370186"
       }
-    ]
+    ],
+    "createdAt": "2023-09-02T02:54:57.164+00:00",
+    "updatedAt": {
+      "$date": "2023-09-12T07:17:04.157Z"
+    }
   },
   {
     "title": "Nike Air Max SC",
@@ -170,9 +180,6 @@
     "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
-    "_id": {
-      "$oid": "64eedbe1b53c2a7d1f77975a"
-    },
     "title": "Nike Shorts DC5321-010",
     "detail": "The Nike Shorts include an inner layer made from Nike Infinalon fabric that feels irresistibly soft and smooth while providing a gentle compressive feel as you stretch and move. The looser outer layer lets you move comfortably while staying covered. They include sweat-wicking power to help keep you dry when your training heats up.",
     "price": 3500,
@@ -206,6 +213,7 @@
       "Stylish Coverage: In addition to their performance benefits, these shorts also provide a stylish and functional design. The outer layer not only enhances your comfort but also ensures you stay covered during your activities. This combination of style and practicality makes them a versatile choice for various sports and fitness routines, allowing you to look and perform your best."
     ],
     "discountPrice": 3430,
+    "__v": 0,
     "colors": [
       {
         "name": "Pink",
@@ -221,7 +229,8 @@
       }
     ],
     "kids": "Boys",
-    "rating": 0
+    "rating": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike Sportswear Premium Essentials",
@@ -275,6 +284,7 @@
       "BCI trains farmers to use water efficiently, care for soil health and natural habitats, reduce use of the most harmful chemicals and respect workers' rights and well-being. Organic cotton delivers the same long-lasting comfort and breathability as conventional cotton, and is grown without the use of fossil fuel-derived pesticides or synthetic fertilisers. Since organic cotton is developed using farming techniques that help replenish soil fertility, it also has a lower carbon impact than conventional cotton."
     ],
     "discountPrice": 4000,
+    "__v": 0,
     "colors": [
       {
         "name": "Orange",
@@ -338,7 +348,8 @@
       }
     ],
     "kids": "Boys",
-    "rating": 0
+    "rating": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike Mercurial Vapor 15 Academy",
@@ -407,7 +418,9 @@
       "Late-Game Dominance: As the match enters its waning minutes and the pressure builds, the Vapor 15 Academy MG helps you maintain peak performance. Its combination of Zoom Air and NikeSkin allows you to stay fast, agile, and in control when it matters most, giving you the edge in critical situations.",
       "Speed and Confidence: With \"Fast is in the Air,\" the Vapor 15 Academy MG emphasizes not only speed but also the confidence that comes with it. This soccer cleat is designed to make you feel faster and more assured in your abilities, enabling you to take charge of the pitch and make impactful plays throughout the game."
     ],
-    "discountPrice": 7835
+    "discountPrice": 7835,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike Utility",
@@ -445,7 +458,9 @@
       "Carrying Options: The bag is designed with various handles and carrying options, providing you with flexibility in how you transport your gear. Whether you prefer to carry it by hand, sling it over your shoulder, or even wear it as a backpack, this bag offers a range of carrying solutions to suit your needs.",
       "Designed for Your Toughest Days: This bag is not just any bag; it's specifically designed to be your reliable companion during your most challenging training days. Its durability and functionality ensure that it can handle the demands of intense workouts, outdoor adventures, or daily use, making it a dependable choice for active individuals."
     ],
-    "discountPrice": 3915
+    "discountPrice": 3915,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike Metcon 8 AMP",
@@ -507,7 +522,9 @@
       "Colorful Energy Boost: The mention of \"hints of Vivid Orange, tangy Citrus, and luscious greens\" in the Metcon 8 AMP adds a vibrant and energetic element to the product. This color scheme not only provides a visually appealing look but also symbolizes an energy boost that can power up workouts.",
       "Durability and Comfort: The passage highlights the brand's commitment to durability and comfort, suggesting that the Metcon 8 AMP maintains these standards. This ensures that individuals can rely on the product's quality and comfort during their training sessions."
     ],
-    "discountPrice": 12539
+    "discountPrice": 12539,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike Dri-FIT Tour",
@@ -554,7 +571,9 @@
       "Customizable Style and Breathability: The dress offers a unique feature - you can unzip the side panels to change up your look and enhance breathability. This not only adds a touch of style but also ensures that you can adapt to changing weather conditions on the golf course while maintaining comfort."
     ],
     "discountPrice": 5385,
-    "kids": "Boys"
+    "__v": 0,
+    "kids": "Boys",
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike Dri-FIT ",
@@ -602,7 +621,9 @@
       "Versatile and Stylish: The tunic is described as \"pitch perfect,\" implying its versatility and suitability for various occasions. It's not just for the football field but can also be a stylish choice for casual wear, emphasizing its adaptability.",
       "Attention to Detail: The use of the term \"twisting details\" suggests a high level of attention to design and aesthetics. These unique design elements contribute to the overall appeal of the tunic, making it a standout choice for football enthusiasts."
     ],
-    "discountPrice": 3033
+    "discountPrice": 3033,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike SB",
@@ -652,7 +673,9 @@
       "Year-Round Comfort: The tee is designed to provide comfort and style throughout the year. Whether it's the heat of summer or the coolness of winter, this versatile shirt is suitable for all seasons, making it a practical choice for skateboard enthusiasts.",
       "Cruising in Style: The tee not only offers comfort but also ensures that skateboarders can cruise in style. It reflects the fashion-forward nature of the skateboarding culture, where personal style and self-expression are celebrated."
     ],
-    "discountPrice": 1759
+    "discountPrice": 1759,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Nike SB Chron 2",
@@ -717,7 +740,9 @@
       "Flexible Performance: The shoe is described as flexible, indicating its ability to accommodate different foot movements. This flexibility is a key feature for skateboarders and those seeking comfort and performance in their footwear.",
       "Breathable Design: Breathability is a crucial factor for active footwear, and the Nike SB Chron 2 meets this requirement. Its breathable design ensures that your feet stay comfortable and well-ventilated during physical activities."
     ],
-    "discountPrice": 5220
+    "discountPrice": 5220,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Air Jordan 7 Retro",
@@ -775,7 +800,9 @@
       "Quality and Comfort: Beyond its aesthetics, the Air Jordan 7 Retro offers the modern comfort and performance features that today's sneakerheads demand. With updated cushioning and materials, this shoe provides a comfortable fit and excellent support, making it suitable for both casual wear and basketball activities. It seamlessly blends nostalgia with contemporary performance."
     ],
     "discountPrice": 17843,
-    "kids": "Boys"
+    "__v": 0,
+    "kids": "Boys",
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Air Jordan 1 Mid",
@@ -842,7 +869,9 @@
       "Celebrating the Origins: This reimagined AJ1 is a celebration of the iconic shoe that started it all for Michael Jordan's signature line. By preserving the classic silhouette and incorporating modern updates, it bridges the gap between the heritage of the original model and the demands of today's sneaker culture.",
       "A Timeless Classic Reinvented: With its blend of heritage and innovation, this AJ1 iteration manages to capture the spirit of the original while adding a fresh twist. It appeals to fans who appreciate the timeless appeal of the Air Jordan 1 while embracing the evolution of design and comfort in contemporary sneaker culture."
     ],
-    "discountPrice": 7835
+    "discountPrice": 7835,
+    "__v": 0,
+    "createdAt": "2023-09-02T02:54:57.164+00:00"
   },
   {
     "title": "Sabrina 1 'Spark' EP",
@@ -896,7 +925,14 @@
       "Next-Gen Insights: This shoe isn't just a product of design; it's a result of insights from next-generation athletes worldwide. It features best-in-class traction, ensuring superior grip on the court. Additionally, it offers reliable midfoot support and stability, vital for any basketball player's performance.",
       "Crafty Player's Delight: While built with crafty players like Sabrina Ionescu in mind, this shoe is suitable for anyone willing to put in the hard work to elevate their game. Its extra-durable rubber outsole provides exceptional traction, making it a reliable choice for outdoor courts, showcasing its adaptability for various playing conditions."
     ],
-    "discountPrice": 10471
+    "discountPrice": 10471,
+    "createdAt": {
+      "$date": "2023-09-09T07:36:01.830Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-09T07:36:01.830Z"
+    },
+    "__v": 0
   },
   {
     "title": "Chelsea F.C. 2023/24 Match Away",
@@ -945,7 +981,14 @@
       "Authentic Match Collection: Chelsea's 2023/24 Away kit is part of the Match collection, ensuring that it's not just about style but also performance. It combines authentic design elements with advanced technology, making it the ideal choice for professional footballers and fans who want to feel like part of the action.",
       "Cool and Comfortable: Designed with lightweight, quick-drying technology, this kit ensures that even the world's biggest football stars can stay cool and comfortable on the pitch. It's not only a nod to Chelsea's rich history but also a testament to the club's commitment to providing top-notch gear for their players and supporters."
     ],
-    "discountPrice": 7755
+    "discountPrice": 7755,
+    "createdAt": {
+      "$date": "2023-09-13T07:16:57.143Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:16:57.143Z"
+    },
+    "__v": 0
   },
   {
     "title": "F.C. Barcelona 2023/24 Stadium Fourth",
@@ -988,7 +1031,14 @@
       "Inspired by Your Favorite Team: The Stadium Collection draws inspiration from your beloved team, capturing the essence of their style and identity. It's a way to show your support and loyalty while looking the part, both on and off the field.",
       "Game-Ready Look: With the Stadium Collection, you're always game-ready. Whether you're heading to the stadium or joining a pick-up game with friends, this collection ensures you're dressed for success and ready to embrace the passion of football."
     ],
-    "discountPrice": 4554
+    "discountPrice": 4554,
+    "createdAt": {
+      "$date": "2023-09-13T07:20:18.496Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:20:18.496Z"
+    },
+    "__v": 0
   },
   {
     "title": "F.C. Barcelona 2023/24 Match Home",
@@ -1036,7 +1086,14 @@
       "Diamond Patterned Stripes: The classic stripes on the kit feature a unique diamond pattern along the edges. This design twist adds a fresh and distinctive touch to the traditional Barcelona stripes, symbolizing the evolution and uniqueness of the Women's team within the club.",
       "Performance and Comfort: As part of the Match collection, the F.C. Barcelona Home kit not only embodies authenticity in its design but also offers practical benefits. The incorporation of lightweight, quick-drying technology ensures that players, both male and female, can perform at their best while staying cool and comfortable on the pitch. This kit stands as a symbol of equality and progress in football, where performance is paramount for all."
     ],
-    "discountPrice": 7755
+    "discountPrice": 7755,
+    "createdAt": {
+      "$date": "2023-09-13T07:27:01.928Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:27:01.928Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Windrunner",
@@ -1084,7 +1141,14 @@
       "Comfortable and Breathable: No matter the weather, comfort is key during your run. The Windrunner jacket is constructed with plenty of airflow and breathability, ensuring you stay cool and comfortable as you exercise. It's designed to prevent overheating even during intense workouts.",
       "Convenient and Portable: The Windrunner jacket is highly portable and packable, making it an excellent companion for runners. Whether you're going for a short jog or a long-distance run, you can easily bring this lightweight jacket along and use it when needed, without it taking up much space. It's the perfect addition to any runner's gear collection."
     ],
-    "discountPrice": 6365
+    "discountPrice": 6365,
+    "createdAt": {
+      "$date": "2023-09-13T07:35:47.438Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:35:47.438Z"
+    },
+    "__v": 0
   },
   {
     "title": "Australia Essential",
@@ -1138,7 +1202,14 @@
       "Team Pride: As a part of your team's merchandise, the Australia Jacket allows you to proudly display your support, no matter the weather. It's not just functional but also a fashion statement that showcases your dedication to your team.",
       "Versatile and Stylish: Beyond its practicality, this jacket offers a versatile and stylish look. Its oversized design not only adds to its functionality but also gives it a modern and fashionable appearance, making it a great choice for both sports events and everyday wear."
     ],
-    "discountPrice": 6856
+    "discountPrice": 6856,
+    "createdAt": {
+      "$date": "2023-09-13T07:42:15.183Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:42:15.183Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max 270",
@@ -1194,7 +1265,14 @@
       "Vibrant Color Options: The Nike Air Max 270 offers a fresh array of colors, allowing wearers to express their individuality and personal style. With a wide range of options, there's a perfect colorway for every taste and outfit.",
       "Big Attitude: The \"big attitude\" of the Nike Air Max 270 isn't just about its bold design; it's also about the confidence and energy it brings to those who wear it. It's a shoe that exudes attitude and self-assuredness, making a statement wherever you go."
     ],
-    "discountPrice": 13575
+    "discountPrice": 13575,
+    "createdAt": {
+      "$date": "2023-09-13T07:59:52.846Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T07:59:52.846Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max 95",
@@ -1249,7 +1327,14 @@
       "Performance Comfort: Beyond its eye-catching design, the Air Max 95 is built for performance. It features visible Nike Air cushioning in both the heel and forefoot, offering unparalleled comfort and cushioning. This makes it a top choice for athletes and anyone seeking all-day comfort.",
       "Fast-Paced Style: The Air Max 95's design embodies the fast-paced style of '90s athletics, making it a timeless classic. It's a shoe that captures the spirit of an era while remaining relevant and fashionable in contemporary streetwear and sportswear culture."
     ],
-    "discountPrice": 14545
+    "discountPrice": 14545,
+    "createdAt": {
+      "$date": "2023-09-13T08:03:22.181Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T08:03:22.181Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max 97",
@@ -1297,7 +1382,14 @@
       "Full-Length Nike Air Cushioning: Comfort is paramount in the Air Max 97. It features full-length Nike Air cushioning, ensuring that your feet are well-supported and comfortable during any activity. Whether you're running or walking, you can count on performance comfort.",
       "Versatile Performance: The Air Max 97 is a versatile choice for individuals who demand both style and functionality. It seamlessly transitions from athletic use to casual wear, making it a reliable and fashionable option for a wide range of activities and occasions."
     ],
-    "discountPrice": 16485
+    "discountPrice": 16485,
+    "createdAt": {
+      "$date": "2023-09-13T08:08:07.745Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T08:08:07.745Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max Plus OG",
@@ -1357,7 +1449,14 @@
       "Tuned Nike Air Experience: The Air Max Plus offers a tuned Nike Air experience, which means you get premium stability and exceptional cushioning. It's designed to provide both support and comfort, making it a top choice for those seeking performance and style.",
       "Unbeatable Cushioning: With its unbelievable cushioning, the Air Max Plus ensures that every step is comfortable and supportive. Whether you're walking the streets or engaging in high-impact activities, this shoe offers the cushioning you need to keep moving comfortably."
     ],
-    "discountPrice": 15195
+    "discountPrice": 15195,
+    "createdAt": {
+      "$date": "2023-09-13T08:11:24.103Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T08:11:24.103Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max 90",
@@ -1414,7 +1513,14 @@
       "Worn by Icons: This shoe has been worn by presidents and has graced the feet of cultural icons. Its appeal spans generations and transcends boundaries, making it a true symbol of cultural significance.",
       "Visual Appeal and Performance: With its striking visuals, Waffle outsole for traction, and exposed Nike Air cushioning for comfort, this shoe seamlessly blends style and performance. It's a testament to Nike's commitment to creating footwear that not only looks great but also performs exceptionally well."
     ],
-    "discountPrice": 11657
+    "discountPrice": 11657,
+    "createdAt": {
+      "$date": "2023-09-13T08:15:54.217Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T08:15:54.217Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Shox TL",
@@ -1474,7 +1580,14 @@
       "Fashion-Forward Details: The shoe incorporates glossy finishes, reflective design elements, and textured mesh underlays, making it stand out with modern and stylish details. These elements add to its overall aesthetic appeal.",
       "Energetic Accents: To provide a pop of color and energy, the design includes flashes of Max Orange. This color contrast enhances the overall visual impact of the shoe, making it even more attention-grabbing."
     ],
-    "discountPrice": 15675
+    "discountPrice": 15675,
+    "createdAt": {
+      "$date": "2023-09-13T13:32:51.313Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T15:05:21.213Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Swoosh",
@@ -1513,7 +1626,14 @@
       "The bra features removable padding that has been redesigned to stay in place reliably while you work out. This ensures that the padding won't shift or bunch up during your activities, providing a consistent and comfortable fit.",
       " The Nike Swoosh Sports Bra is made from at least 75% recycled polyester fibers. This eco-friendly design helps reduce the environmental impact by using recycled materials, making it a sustainable choice for fitness enthusiasts who care about the planet."
     ],
-    "discountPrice": 1967
+    "discountPrice": 1967,
+    "createdAt": {
+      "$date": "2023-09-13T15:52:08.405Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T15:55:29.697Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Swoosh DV3295-551",
@@ -1552,7 +1672,14 @@
       "Comfortable Coverage: The bra is designed with a plush chest band and three layers of fabric, ensuring comfortable coverage. This combination of features ensures that you can focus on your activities without being distracted by discomfort.",
       "Reversible Design: One standout feature is the reversible design of the Nike Swoosh Sports Bra. It offers two different looks in one garment, providing versatility in your workout wardrobe. This allows you to change up your style without needing multiple bras, adding an element of fashion to your activewear."
     ],
-    "discountPrice": 1656
+    "discountPrice": 1656,
+    "createdAt": {
+      "$date": "2023-09-13T15:54:26.999Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-13T15:55:05.383Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max Dawn Next Nature 365",
@@ -1609,7 +1736,14 @@
       "Modern Cushioning: Despite its vintage-inspired exterior, the Air Max Dawn incorporates modern cushioning technology. This ensures a comfortable and supportive ride, making it suitable for long hours of wear and various activities.",
       "Easy to Style and Comfortable: The Air Max Dawn is not only comfortable but also easy to style. Its versatile design allows you to pair it with a wide range of outfits, whether you're dressing casually or aiming for a more athleisure look. With these shoes, you can confidently start your day feeling both stylish and comfortable."
     ],
-    "discountPrice": 10363
+    "discountPrice": 10363,
+    "createdAt": {
+      "$date": "2023-09-14T11:31:37.635Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-14T11:31:37.635Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Go FlyEase",
@@ -1664,7 +1798,14 @@
       "Accessibility for All: Beyond individuals with limited mobility, these shoes are designed to benefit anyone seeking a quicker and more convenient way to start their day. They prioritize ease of use and accessibility, catering to a broad range of consumers.",
       "Convenience on the Go: With the FlyEase technology, you can effortlessly slip into these kicks, eliminating the hassle of dealing with traditional laces. This convenience is especially valuable for those who are always on the move and need a quick and efficient footwear solution."
     ],
-    "discountPrice": 11071
+    "discountPrice": 11071,
+    "createdAt": {
+      "$date": "2023-09-14T11:49:00.732Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-14T11:49:00.732Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Sportswear Phoenix Fleece DQ5861-225",
@@ -1713,7 +1854,14 @@
       "Exaggerated Details: The hoodie stands out with its exaggerated details, such as extra-tall ribbing and an oversized front pocket. These design elements add a bold and eye-catching dimension to the hoodie, helping you make a fashion statement.",
       "Standout Style: The Phoenix Fleece hoodie is all about helping you stand out. Whether you're running errands, hanging out with friends, or simply enjoying a day at home, this hoodie's unique design ensures you'll grab attention and make a statement."
     ],
-    "discountPrice": 3681
+    "discountPrice": 3681,
+    "createdAt": {
+      "$date": "2023-09-14T12:06:29.430Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-14T12:06:29.430Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Dri-FIT CU7203-330",
@@ -1765,7 +1913,14 @@
       "Wet and Rocky Conditions: Trail running often involves encountering wet and rocky conditions. The Nike Trail Socks are equipped to handle such environments, keeping your feet comfortable and protected even when facing adverse weather and rough surfaces.",
       "Insights from Trail Runners: Nike has collaborated with trail runners from around the world to gather insights and feedback. This ensures that the socks are tailored to the specific needs and preferences of those who regularly run on trails, making them a reliable choice for off-road enthusiasts."
     ],
-    "discountPrice": 1450
+    "discountPrice": 1450,
+    "createdAt": {
+      "$date": "2023-09-14T12:10:24.757Z"
+    },
+    "updatedAt": {
+      "$date": "2023-09-14T12:12:10.878Z"
+    },
+    "__v": 0
   },
   {
     "title": "Nike Air Max Dn",
@@ -1815,6 +1970,13 @@
       "Heritage Stitching: The presence of heritage stitching on the NikeCourt Legacy Canvas adds a touch of authenticity to the design. This attention to detail not only enhances the aesthetics but also reflects the craftsmanship and quality associated with Nike products.",
       "Retro Swoosh Design: The inclusion of a retro Swoosh design further reinforces the classic appeal of these sneakers. The Swoosh logo is an iconic symbol of Nike's legacy, and its presence on these shoes showcases a timeless style that can effortlessly transition from sports to fashion."
     ],
-    "discountPrice": 13575
+    "discountPrice": 13575,
+    "createdAt": {
+      "$date": "2024-04-01T10:26:49.516Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-01T10:26:49.516Z"
+    },
+    "__v": 0
   }
 ]
