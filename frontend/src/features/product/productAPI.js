@@ -1,4 +1,16 @@
-// A mock function to mimic making an async request for data
+export function createProduct(product) {
+  return new Promise(async (resolve) => {
+    console.log(product);
+    const response = await fetch("products/createProduct", {
+      method: "POST",
+      body: JSON.stringify(product),
+      headers: { "content-type": "application/json" },
+    });
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
 export function fetchProduct(filter, sort) {
   return new Promise(async (resolve) => {
     let queryString = "";

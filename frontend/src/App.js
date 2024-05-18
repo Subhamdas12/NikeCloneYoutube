@@ -9,6 +9,24 @@ import {
   fetchColorsAsync,
   fetchSizesAsync,
 } from "./features/product/productSlice";
+import AdminProductFormPage from "./pages/admin/AdminProductFormPage";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/addProduct",
+    element: <AdminProductFormPage />,
+  },
+]);
 
 function App() {
   const dispatch = useDispatch();
@@ -19,8 +37,7 @@ function App() {
   }, [dispatch]);
   return (
     <div className="App">
-      {/* <LandingPage /> */}
-      <Home />
+      <RouterProvider router={router} />
     </div>
   );
 }

@@ -5,6 +5,7 @@ exports.createProduct = async (req, res) => {
   product.discountPrice = Math.round(
     product.price * (1 - product.discount / 100)
   );
+  console.log(product);
   try {
     const doc = await product.save();
     console.log(doc);
