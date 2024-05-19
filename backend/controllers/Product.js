@@ -72,6 +72,18 @@ exports.fetchProducts = async (req, res) => {
   }
 };
 
+exports.fetchProductById = async (req, res) => {
+  const { id } = req.params;
+  console.log("This is working");
+  try {
+    const product = await Product.findById({ _id: id }).exec();
+    res.status(200).json(product);
+  } catch (err) {
+    console.log(err);
+    res.status(400).json(err);
+  }
+};
+
 exports.updateProductById = async (req, res) => {
   const { id } = req.params;
   try {

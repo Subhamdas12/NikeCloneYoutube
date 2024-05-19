@@ -31,6 +31,14 @@ export function fetchProduct(filter, sort) {
   });
 }
 
+export function fetchProductById(id) {
+  return new Promise(async (resolve) => {
+    const response = await fetch(`/products/fetchProductById/${id}`);
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
 export function fetchColors() {
   return new Promise(async (resolve) => {
     const response = await fetch("/colors");

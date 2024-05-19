@@ -16,6 +16,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import ProductOverviewPage from "./pages/ProductOverviewPage";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/addProduct",
     element: <AdminProductFormPage />,
+  },
+  {
+    path: "/productOverview/:id",
+    element: <ProductOverviewPage />,
   },
 ]);
 

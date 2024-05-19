@@ -6,6 +6,7 @@ import Heart from "../assets/outline-heart.png";
 import Bag from "../assets/bag.png";
 import Hamburger from "../assets/hamburger.png";
 import SlidingNavbar from "./SlidingNavbar";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const loginOption = ["Find a store", "Help", "Join us", "Login"];
   const loginUserOption = ["Find a store", "Help", "Hi ,"];
@@ -182,7 +183,9 @@ const Navbar = () => {
 
       <div className="second">
         <div className="px-5  flex md:px-12 md:py-2 justify-between items-center">
-          <img src={NikeLogo} alt="" />
+          <Link to="/">
+            <img src={NikeLogo} alt="" />
+          </Link>
           <div className="hidden lg:flex space-x-8 cursor-pointer">
             <h3 className=" border-b-2 hover:border-black transition-all delay-75">
               New & Featured
