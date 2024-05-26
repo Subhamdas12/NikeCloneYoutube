@@ -17,6 +17,9 @@ import {
   Link,
 } from "react-router-dom";
 import ProductOverviewPage from "./pages/ProductOverviewPage";
+import SignupPage from "./pages/SignupPage";
+import LoginPage from "./pages/LoginPage";
+import { checkUserAsync } from "./features/auth/authSlice";
 
 const router = createBrowserRouter([
   {
@@ -31,10 +34,21 @@ const router = createBrowserRouter([
     path: "/productOverview/:id",
     element: <ProductOverviewPage />,
   },
+  {
+    path: "/signup",
+    element: <SignupPage></SignupPage>,
+  },
+  {
+    path: "/login",
+    element: <LoginPage></LoginPage>,
+  },
 ]);
 
 function App() {
   const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(checkUserAsync());
+  }, [dispatch]);
   useEffect(() => {
     dispatch(fetchColorsAsync());
     dispatch(fetchSizesAsync());
