@@ -11,6 +11,9 @@ import { CSSTransition } from "react-transition-group";
 import filledheart from "../assets/filled-heart.png";
 import upArrow from "../assets/up-arrow.png";
 import downArrow from "../assets/down-arrow.png";
+import { selectLogginUser } from "../features/auth/authSlice";
+import { addToCartAsync, selectItems } from "../features/cart/cartSlice";
+import Swal from "sweetalert2";
 const ProductOverview = ({ id }) => {
   const dispatch = useDispatch();
   const product = useSelector(selectSelectedProduct);
@@ -19,6 +22,52 @@ const ProductOverview = ({ id }) => {
   const [selectedSize, setSelectedSize] = useState(null);
   const [showDeliveryReturn, setShowDeliveryReturn] = useState(false);
   const [showProductInfo, setShowProductInfo] = useState(false);
+  const user = useSelector(selectLogginUser);
+  const cartItems = useSelector(selectItems);
+  const Toast = Swal.mixin({
+    toast: true,
+    position: "top-end",
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {},
+  });
+  const addToCartHandler = () => {
+    if (user) {
+      if (cartItems.findIndex((item) => item.product._id === product._id) < 0) {
+        if (selectedColor && selectedSize) {
+          //we need to write the program to add the product to the cart
+          dispatch(
+            addToCartAsync({
+              product: product._id,
+              quantity: 1,
+              color: selectedColor.name,
+              size: selectedSize,
+            })
+          );
+          Toast.fire({
+            icon: "success",
+            title: "Item added to cart",
+          });
+        } else {
+          Toast.fire({
+            icon: "info",
+            title: "Please select color and size",
+          });
+        }
+      } else {
+        Toast.fire({
+          icon: "error",
+          title: "Item already in cart",
+        });
+      }
+    } else {
+      Toast.fire({
+        icon: "error",
+        title: "You have to login to add to cart",
+      });
+    }
+  };
   useEffect(() => {
     if (id) {
       dispatch(fetchProductByIdAsync(id));
@@ -169,7 +218,10 @@ const ProductOverview = ({ id }) => {
                 </RadioGroup>
               </div>
               <div className="fourth my-2 space-y-4">
-                <button className="w-full bg-black text-white py-4 rounded-full hover:opacity-90">
+                <button
+                  onClick={addToCartHandler}
+                  className="w-full bg-black text-white py-4 rounded-full hover:opacity-90"
+                >
                   Add to Bag
                 </button>
                 <button className="w-full flex items-center justify-center border-2 border-black border-opacity-30 hover:border-opacity-100 rounded-full  py-4">

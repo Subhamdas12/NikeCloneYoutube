@@ -7,7 +7,10 @@ import Bag from "../assets/bag.png";
 import Hamburger from "../assets/hamburger.png";
 import SlidingNavbar from "./SlidingNavbar";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectItems } from "../features/cart/cartSlice";
 const Navbar = () => {
+  const cartItem = useSelector(selectItems);
   const loginOption = ["Find a store", "Help", "Join us", "Login"];
   const loginUserOption = ["Find a store", "Help", "Hi ,"];
   const helpOptions = [
@@ -219,10 +222,14 @@ const Navbar = () => {
             <div className="hidden md:flex">
               <img className="w-7 h-7 cursor-pointer" src={Heart} alt="" />
             </div>
-            <div className="relative">
-              <img className="w-7 h-7 cursor-pointer" src={Bag} alt="" />
-              <p className="absolute top-3 left-2.5 text-xs">2</p>
-            </div>
+            <Link to="/shoppingCart">
+              <div className="relative">
+                <img className="w-7 h-7 cursor-pointer" src={Bag} alt="" />
+                <p className="absolute top-3 left-2.5 text-xs">
+                  {cartItem?.length}
+                </p>
+              </div>
+            </Link>
             <img className="w-8 h-8 md:hidden" src={userImg} alt="" />
             <img
               onClick={() => setOpen(true)}

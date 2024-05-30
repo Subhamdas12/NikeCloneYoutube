@@ -9,8 +9,13 @@ const colorsRouter = require("./routes/Color");
 const sizesRouter = require("./routes/Size");
 const categoriesRouter = require("./routes/Category");
 const authRouter = require("./routes/Auth");
+const cartRouter = require("./routes/Cart");
 const { User } = require("./models/User");
-const { sanitizeUser, cookieExtractor } = require("./constants/services");
+const {
+  sanitizeUser,
+  cookieExtractor,
+  isAuth,
+} = require("./constants/services");
 const LocalStrategy = require("passport-local").Strategy;
 const JwtStrategy = require("passport-jwt").Strategy;
 const crypto = require("crypto");
@@ -35,6 +40,7 @@ server.use("/colors", colorsRouter.router);
 server.use("/sizes", sizesRouter.router);
 server.use("/categories", categoriesRouter.router);
 server.use("/auth", authRouter.router);
+server.use("/cart", isAuth(), cartRouter.router);
 
 passport.use(
   "Local",
